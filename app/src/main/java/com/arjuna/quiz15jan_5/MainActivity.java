@@ -32,13 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 int aAngka = Integer.parseInt(nangka);
 
                 //kondisi panjang nya kosong
-                if (aAngka >= 11) {
+                if (aAngka >= 10) {
                     //memberikan warning berupa eror
                     txthasil.setText(" Bigger Than 10");
-                } else if (aAngka == 10) {
-                    //Kondisi ketika lebarnya kosong
-                    txthasil.setText("True");
-                } else if (aAngka <= 10) {
+                } else {
                     txthasil.setText("Smaller Than 10");
                 }
 
